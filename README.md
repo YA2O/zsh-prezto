@@ -25,7 +25,7 @@ It also includes the following aliases and functions in `.zshrc`:
 
 Run the installation script:
 ``` bash
-curl -fsSL https://raw.githubusercontent.com/JGroxz/presto-prezto/main/presto-prezto.sh | bash
+curl -fsSL https://raw.githubusercontent.com/YA2O/zsh-prezto/main/presto-prezto.sh | bash
 ```
 
 ### Advanced (with Meslo Nerd Font)
