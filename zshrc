@@ -37,14 +37,6 @@ backup_with_timestamp() {
     unset BACKUP_NAME
 }
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
-
-
-
-
 ######### aliases
 alias ls='gls -1FA --group-directories-first --time-style=long-iso'
 alias l='ls'
@@ -140,3 +132,6 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
