@@ -37,6 +37,9 @@ backup_with_timestamp() {
     unset BACKUP_NAME
 }
 
+
+
+
 ######### aliases
 alias ls='gls -1FA --group-directories-first --time-style=long-iso'
 alias l='ls'
@@ -45,9 +48,12 @@ alias l.='ls -ld .?*'
 alias la='ls -a'
 alias lla='ls -al'
 alias lal='ls -al'
-alias ..='cd ..'
-alias ...='cd ../..'
 alias -- -='cd -'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# alias bat="batcat"
 
 alias g='git'
 alias v='nvim'
@@ -132,6 +138,8 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
