@@ -11,7 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Init zplug
-source ~/.zplug/init.zsh 2>/dev/null
+source ~/.zplug/init.zsh
 
 # Select zplug plugins
 zplug "clvv/fasd"
@@ -26,7 +26,7 @@ if ! zplug check --verbose; then
 fi
 
 # Load Zplug plugins
-zplug load 2>/dev/null
+zplug load
 
 # Define utility functions and aliases
 backup_with_timestamp() {
